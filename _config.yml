@@ -1,85 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: PhoenixSky
-SEOTitle: 我的博客 | PhoenixSky Blog
-header-img: img/home-bg.jpg
+brief-intro: Android Dev Engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://phoenixsky.github.io" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+github_username:  phoenixsky
 email: moran.fc@gmail.com
-description: "你转身向北,侧脸还是很美"
-keyword: ""
-url: "http://phoenixsky.cn"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+weibo_username: moolu
 
+description_footer: 你转身向北,侧脸还是很美
 
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: gaohaoyang
 
-# SNS settings
-RSS: false
-weibo_username:     moolu
-#zhihu_username:     huxpro
-github_username:    phoenixsky
-#twitter_username:  huxpro
-#facebook_username:  huxpro
-
-
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+#baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+#google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
+  syntax_highlighter: rouge
 
+# port
+# port: 1234
 
+# url
+category_dir: category/
+tag_dir: tag/
 
-# Disqus settings
-#disqus_username: _your_disqus_short_name_
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
-# Duoshuo settings
-#duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-phoenix.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-friends: [
-   
-]
+# paginate
+gems: [jekyll-paginate]
+paginate: 6

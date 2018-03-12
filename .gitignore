@@ -1,6 +1,6 @@
 _site
-node_modules
+.sass-cache
+.jekyll-metadata
+.vscode
+.idea
 .DS_Store
-*/.DS_Store
-*/*/.DS_Store
-*.sh
