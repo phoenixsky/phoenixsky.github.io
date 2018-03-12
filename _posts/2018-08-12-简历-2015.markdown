@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Welcome to Hux Blog"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
+title:      "Welcome to Rocky Blog"
+subtitle:   "简历"
+date:       2018-08-12 21:00:00
+author:     "Rocky"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - 生活
+    - 简历
 ---
 
 > “Yeah It's on. ”
