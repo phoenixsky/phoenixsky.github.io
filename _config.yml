@@ -1,6 +1,6 @@
 # Site settings 配置站点
-title: '张岩的博客'
-description: '跌跌撞撞中,依旧热爱这个世界.，移动端开发者/伪极客/灵魂摄影师，热爱技术&设计。'
+title: '跌跌撞撞中,依旧热爱这个世界'
+description: '移动端开发者/伪极客/灵魂摄影师，热爱技术&设计。'
 keyword: '张岩, phoenixsky, 张岩的博客, 移动端开发,Android, iOS, javascript, vuejs, nodejs, 设计'
 url: 'http://phoenixsky.cn' # your host
 
@@ -42,8 +42,8 @@ comments:
 reward:
   enable: true
   reward_comment: '真诚赞赏 手有余香'
-  wechatpay: 'http://ray-eldath.image.alimmdn.com/basic/wechatpay.jpg'
-  alipay: 'http://ray-eldath.image.alimmdn.com/basic/alipay.jpg'
+  wechatpay: '/assets/img/wechatpay.jpg'
+  alipay: '/assets/img/alipay.jpg'
 
 # b2t 回到顶部 by Ray-Eldath
 b2t: true
