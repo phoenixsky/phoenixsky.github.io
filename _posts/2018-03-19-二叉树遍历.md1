@@ -138,4 +138,22 @@ tags: 二叉树
 			node = node.right;
 		}
 	}
+	
+	/**
+	 * 广度优先遍历二叉树，又称层次遍历二叉树
+	 * @param node
+	 */
+	public void breadthFirstTraverse(Node<E> root) {
+		Queue<Node<E>> queue = new LinkedList<Node<E>>();
+		Node<E> currentNode = null;
+		queue.offer(root);
+		while (!queue.isEmpty()) {
+			currentNode = queue.poll();
+			System.out.print(currentNode.value + " ");
+			if (currentNode.left != null)
+				queue.offer(currentNode.left);
+			if (currentNode.right != null)
+				queue.offer(currentNode.right);
+		}
+	}
 ```
