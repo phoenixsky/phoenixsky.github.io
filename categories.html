@@ -6,7 +6,7 @@ layout: default
 {% include header.html %}
 
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
-    <h2>TAGS</h2>
+    <h2>CATEGORIES</h2>
 </div>
 
 <main class="tags-content">
@@ -14,16 +14,16 @@ layout: default
     <ul class="tags-list">
         <li>
         {% if site.recommend-tags and site.categories.size>0 %}
-            {% for tag in site.categories %}
-            <a href="#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
+            {% for category in site.categories %}
+            <a href="#{{ category[0] }}" class="tag">{{ category[0]}}</a>
             {% endfor %}
         {% endif %}
         </li>
         
-        {% for tag in site.categories %}
+        {% for category in site.categories %}
         <li>
-            <span class="tag-name" id="{{ categories[0] }}">「{{ categories[0] }}」</span>
-            {% for post in tag[1] %}
+            <span class="tag-name" id="{{ category[0] }}">「{{ category[0] }}」</span>
+            {% for post in category[1] %}
             <a class="tag-post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             {% endfor %}
         </li>
