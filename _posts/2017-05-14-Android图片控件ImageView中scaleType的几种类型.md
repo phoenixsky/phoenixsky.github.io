@@ -8,7 +8,7 @@ subtitle: '图片的几种缩放类型'
 
 date: 2017-03-01
 
-categories: Android
+categories: Android札记
 
 tags: Android ImageView 
 

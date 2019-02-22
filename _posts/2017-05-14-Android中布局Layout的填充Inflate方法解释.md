@@ -8,7 +8,7 @@ subtitle: 'inflater.inflate(layout,...)'
 
 date: 2017-03-01
 
-categories: Android
+categories: Android札记
 
 tags: Android Layout Inflate
 
