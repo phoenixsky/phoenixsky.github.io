@@ -18,7 +18,6 @@ tags: 前端 跨域
 ---
 
 # Chrome解决跨域
-```shell
-open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-data-dir=/Users/Rocky/Documents/MyChromeDevUserData
-```
+
+`open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-data-dir=/Users/Rocky/Documents/MyChromeDevUserData`
 
