@@ -4,7 +4,7 @@ layout: post
 
 title: 'Android AnnotationProcess及注解'
 
-subtitle: 'AnnotationProcess' 
+subtitle: '通过注解自动生成代码,ButterKnife,Dagger2原理' 
 
 date: 2017-03-01
 
