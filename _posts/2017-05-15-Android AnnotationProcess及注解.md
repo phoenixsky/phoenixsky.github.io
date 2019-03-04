@@ -45,7 +45,7 @@ Javadoc工具文档化
 ## 2.4 @Inherited 继承
  注解会被子类继承,通过反射`clazz.getAnnotations()`可以获取父类定义有`@inherited`的注解
 
-# 3 注解的使用 
+# 3. 注解的使用 
 ## 运行时注解
 运行时 通过反射获取注解信息,进行操作
 ## 编译时注解
@@ -57,11 +57,11 @@ Javadoc工具文档化
 
 1. 编译时，系统会调用所有AbstractProcessor子类的process方法，也就是调用我们的ViewFinderProcess的类。
 在ViewFinderProcess中，我们获得工程下所有被@BindView注解所修饰的View。
-2. 遍历这些被@BindView修饰的View变量，获得它们被声明时所在的类，首先判断是否已经为所在的类生成了对应的AnnotatedClass，如果没有，那么生成一个，并将View封装成BindViewField添加进入AnnotatedClass的列表，反之添加即可，所有的AnnotatedClass被保存在一个map当中。
-3. 当遍历完所有被注解修饰的View后，开始遍历之前生成的AnnotatedClass，每个AnnotatedClass会生成一个对应的$$Finder类。
-4. 如果我们在n个类中使用了@BindView来修饰里面的View，那么我们最终会得到n个`$$Finder`类，并且无论我们最终有没有在这n个类中调用ViewFinder.inject方法，都会生成这n个类；而如果我们调用了ViewFinder.inject，那么最终就会通过反射来实例化它对应的$$Finder类，通过调用inject方法来给被它里面被@BindView所修饰的View执行findViewById操作。
+1. 遍历这些被@BindView修饰的View变量，获得它们被声明时所在的类，首先判断是否已经为所在的类生成了对应的AnnotatedClass，如果没有，那么生成一个，并将View封装成BindViewField添加进入AnnotatedClass的列表，反之添加即可，所有的AnnotatedClass被保存在一个map当中。
+2. 当遍历完所有被注解修饰的View后，开始遍历之前生成的AnnotatedClass，每个AnnotatedClass会生成一个对应的$$Finder类。
+3. 如果我们在n个类中使用了@BindView来修饰里面的View，那么我们最终会得到n个`$$Finder`类，并且无论我们最终有没有在这n个类中调用ViewFinder.inject方法，都会生成这n个类；而如果我们调用了ViewFinder.inject，那么最终就会通过反射来实例化它对应的`$$Finder`类，通过调用inject方法来给被它里面被@BindView所修饰的View执行findViewById操作。
 
-```
+```java
 @AutoService(Processor.class)
 public class ViewFinderProcess extends AbstractProcessor{
 
