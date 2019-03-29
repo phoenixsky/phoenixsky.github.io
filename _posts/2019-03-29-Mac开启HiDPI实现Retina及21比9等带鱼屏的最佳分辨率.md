@@ -4,19 +4,15 @@ layout: post
 
 title: 'Mac开启HiDPI实现Retina及21:9等带鱼屏的最佳分辨率'
 
-subtitle: '强制开启HiDPI实现Retina'
+subtitle: '强制开启HiDPI,还你一片清晰的视界'
 
-date: 2018-05-12
+date: 2019-03-29
 
 categories: Mac
 
 tags: HiDPI 显示器 
 
 ---
-强制开启HiDPI,还你一片清晰的视界
-
----
-# .
 
 最近购入了LG的34UC99`3440x1440`,回来接到我的Mac mini 2018上边,发现字体太小了,有种能把眼睛瞅瞎的感觉.随即调整了分辨率,可是根据当前显示器的分辨,如果想实现HiDPI的效果,只能缩放到1720x720,这样字体又太大,空间利用率不够.设置为别的分辨率,字体又明显发虚.随即研究了下强制开启HiDPI.
 
