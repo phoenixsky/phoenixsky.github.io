@@ -6,7 +6,7 @@ title: '产品级Flutter开源项目，FunAndroid'
 
 subtitle: '基于Google的Flutter,利用玩Android开放的API，打造的一款产品级开源App《Fun Android》'
 
-date: 2018-05-12
+date: 2019-08-23
 
 categories: Flutter 开源项目
 
