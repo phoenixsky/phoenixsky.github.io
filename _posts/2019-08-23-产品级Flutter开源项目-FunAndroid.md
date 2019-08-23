@@ -15,8 +15,6 @@ tags: Flutter
 ---
 
 
-> 基于Google的[Flutter](https://flutter.dev),利用[玩Android](https://wanandroid.com/)开放的API，打造的一款产品级开源App《[Fun Android](https://github.com/phoenixsky/fun_android_flutter)》
-
 ![logo,灵感来自2dimensions是个蓝色的F，自己挺喜欢，就down了下来，后来又翻了好久也没找到作者，如果侵权请联系我](https://upload-images.jianshu.io/upload_images/581515-f3a4b2e4392e63bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) 
 
 > Logo的里F，既代表了`Fun`也代表了`Flutter`.
