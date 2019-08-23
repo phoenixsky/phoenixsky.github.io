@@ -44,8 +44,9 @@ tags: Flutter
 > 项目地址：[https://github.com/phoenixsky/fun_android_flutter](https://github.com/phoenixsky/fun_android_flutter)
 
 > 下载地址: 
-Android：https://github.com/phoenixsky/fun_android_flutter/releases/download/0.1.0/FunAndroid_0.1.0.apk
-iOS: `审核被拒...待调整后上架`
+  * Android：https://github.com/phoenixsky/fun_android_flutter/releases/download/0.1.0/FunAndroid_0.1.0.apk
+
+  * iOS: `审核被拒...待调整后上架`
 
 借用群里水友的两句对白，在预览版出来时候
 
