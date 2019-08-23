@@ -35,8 +35,7 @@ tags: Flutter
 
 ![4-字体](https://upload-images.jianshu.io/upload_images/581515-35d3057a70b8ac05.gif?imageMogr2/auto-orient/strip)
 
-![6-收藏及跳转app.gif](https://upload-images.jianshu.io/upload_images/581515-0991a9432f0c5932.gif?imageMogr2/auto-orient/strip)
-
+![6-收藏及跳转app.gif](https://upload-images.jianshu.io/upload_images/581515-0991a9432f0c5932.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/444/format/webp)
 
 ![7-移除收藏](https://upload-images.jianshu.io/upload_images/581515-df65c948203b6751.gif?imageMogr2/auto-orient/strip)
 
@@ -45,9 +44,11 @@ tags: Flutter
  > [https://github.com/phoenixsky/fun_android_flutter](https://github.com/phoenixsky/fun_android_flutter)
 
 # 下载地址: 
-  * Android：https://github.com/phoenixsky/fun_android_flutter/releases/download/0.1.0/FunAndroid_0.1.0.apk
+  * Android：
+  >  https://github.com/phoenixsky/fun_android_flutter/releases/download/0.1.0/FunAndroid_0.1.0.apk
 
-  * iOS: `审核被拒...待调整后上架`
+  * iOS: 
+  >  `审核被拒...待调整后上架`
 
 借用群里水友的两句对白，在预览版出来时候
 
