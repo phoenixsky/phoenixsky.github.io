@@ -1,18 +1,5 @@
----
-
-layout: post
-
-title: '产品级Flutter开源项目，FunAndroid'
-
-subtitle: '基于Google的Flutter,利用玩Android开放的API，打造的一款产品级开源App《Fun Android》'
-
-date: 2019-08-23
-
-categories: Flutter 开源项目
-
-tags: Flutter 
-
----
+# 产品级Flutter开源项目FunAndroid，Provider的最佳实践
+> 基于Google的[Flutter](https://flutter.dev),及官方推荐状态管理[Provider](https://github.com/rrousselGit/provider)和[玩Android](https://wanandroid.com/)开放的API，打造的一款产品级开源App《[Fun Android](https://github.com/phoenixsky/fun_android_flutter)》
 
 ![logo,灵感来自2dimensions是个蓝色的F，自己挺喜欢，就down了下来，后来又翻了好久也没找到作者，如果侵权请联系我](https://upload-images.jianshu.io/upload_images/581515-f3a4b2e4392e63bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) 
 
@@ -31,24 +18,26 @@ tags: Flutter
 # 下载地址: 
   * Android：
   >  https://github.com/phoenixsky/fun_android_flutter/releases/download/0.1.0/FunAndroid_0.1.0.apk
+     
+   ![android.png](https://upload-images.jianshu.io/upload_images/581515-5d0d8ddcd273d18b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200)
 
   * iOS: 
-  >  `审核被拒...待调整后上架`
+  >  `审核被拒...待调整后上架` ,由于该app内容含有大量Android相关信息,过于挑衅`Apple`,不知道还有没有希望过审.
 
-
+# 介绍
 借用群里水友的两句对白，在预览版出来时候
 
 *   1A：话说`玩Android`的开源项目已经多如牛毛了。
 
-*   3C：我想看最完美的。
+*   3C：我想看最漂亮的。
 
 感谢这位朋友对`FunAndroid`的认可。
 
-关于App的主题风格，不是Google倡导的Material Design 也不是Apple的Cupertino Style。由于我是一个Android开发者，但又长期使用的iPhone，所以App的风格是两者的结合又夹杂了点私货。个人认为iOS版本的确实好看点。
+关于App的主题风格，不全是Google倡导的Material Design 也不全是Apple的Cupertino Style。由于我是一个Android开发者，但又长期使用的iPhone，所以App的风格是两者的结合又夹杂了点私货。个人认为iOS版本的确实好看点。
 
-我也不是大佬，刚玩Flutter不久，用音乐圈的方式来说，做了一些代码裁缝，加了点自己的思考。所以代码中存在的问题，请大家积极提[Issue](https://github.com/phoenixsky/fun_android_flutter/issues).
+代码中存在的问题，请大家积极提[Issue](https://github.com/phoenixsky/fun_android_flutter/issues).
 
-# 简单介绍一下项目结构
+# 项目结构
 
 | ![项目结构1](https://upload-images.jianshu.io/upload_images/581515-74078e828d25fa7b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) | ![项目解构2](https://upload-images.jianshu.io/upload_images/581515-362f48ef83763615.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -155,9 +144,8 @@ tags: Flutter
 
 6.  感谢WanAndroid提供的API。
 
-## 关于作者
+# 关于作者
 * [Github](https://github.com/phoenixsky)
 * [个人博客](http://blog.phoenixsky.cn/)
 * [简书](https://www.jianshu.com/u/145e6297cb26)
 * Email: moran.fc@gmail.com
-
