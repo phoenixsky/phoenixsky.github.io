@@ -14,27 +14,16 @@ tags: Flutter
 
 ---
 
-
 ![logo,灵感来自2dimensions是个蓝色的F，自己挺喜欢，就down了下来，后来又翻了好久也没找到作者，如果侵权请联系我](https://upload-images.jianshu.io/upload_images/581515-f3a4b2e4392e63bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) 
 
 > Logo的里F，既代表了`Fun`也代表了`Flutter`.
 
-![0-欢迎页面](https://upload-images.jianshu.io/upload_images/581515-bcfa9d0eaf69835f.gif?imageMogr2/auto-orient/strip)
+# 先来点样图
 
-![1-空中阁楼小.gif](https://upload-images.jianshu.io/upload_images/581515-54b8e7498039dc11.gif?imageMogr2/auto-orient/strip)
-
-![2-页面状态骨架屏.gif](https://upload-images.jianshu.io/upload_images/581515-383fba933a0abbbc.gif?imageMogr2/auto-orient/strip)
-
-![3-状态页](https://upload-images.jianshu.io/upload_images/581515-622d62b14fa8d6bc.gif?imageMogr2/auto-orient/strip)
-
-![5-主题](https://upload-images.jianshu.io/upload_images/581515-e59a6b350bbd2b51.gif?imageMogr2/auto-orient/strip)
-
-![4-字体](https://upload-images.jianshu.io/upload_images/581515-35d3057a70b8ac05.gif?imageMogr2/auto-orient/strip)
-
-![6-收藏及跳转app.gif](https://upload-images.jianshu.io/upload_images/581515-0991a9432f0c5932.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/444/format/webp)
-
-![7-移除收藏](https://upload-images.jianshu.io/upload_images/581515-df65c948203b6751.gif?imageMogr2/auto-orient/strip)
-
+|![splash.gif](https://upload-images.jianshu.io/upload_images/581515-1e3e9fe19d44adca.gif?imageMogr2/auto-orient/strip)| ![首页空中楼阁](https://upload-images.jianshu.io/upload_images/581515-2f68e3fc18a3161e.gif?imageMogr2/auto-orient/strip) | ![tab概览_1080-50-128.gif](https://upload-images.jianshu.io/upload_images/581515-be91ba09c020f594.gif?imageMogr2/auto-orient/strip)|
+| --- | --- | --- |
+| ![页面不同状态展示.gif](https://upload-images.jianshu.io/upload_images/581515-81e45c5a72fd6b83.gif?imageMogr2/auto-orient/strip) | ![搜索.gif](https://upload-images.jianshu.io/upload_images/581515-00f7b2f89cf141a1.gif?imageMogr2/auto-orient/strip)| ![收藏-50.gif](https://upload-images.jianshu.io/upload_images/581515-5c5e9b7219100c26.gif?imageMogr2/auto-orient/strip)|
+| ![登录页展示.gif](https://upload-images.jianshu.io/upload_images/581515-9d83d6940c9a57ed.gif?imageMogr2/auto-orient/strip) | ![收藏列表到登录.gif](https://upload-images.jianshu.io/upload_images/581515-15084c89cc5a55f2.gif?imageMogr2/auto-orient/strip) | ![主题切换-1080-75-256.gif](https://upload-images.jianshu.io/upload_images/581515-348b013cc8a52621.gif?imageMogr2/auto-orient/strip)| 
 
 # 项目地址：
  > [https://github.com/phoenixsky/fun_android_flutter](https://github.com/phoenixsky/fun_android_flutter)
@@ -45,6 +34,7 @@ tags: Flutter
 
   * iOS: 
   >  `审核被拒...待调整后上架`
+
 
 借用群里水友的两句对白，在预览版出来时候
 
@@ -58,13 +48,13 @@ tags: Flutter
 
 我也不是大佬，刚玩Flutter不久，用音乐圈的方式来说，做了一些代码裁缝，加了点自己的思考。所以代码中存在的问题，请大家积极提[Issue](https://github.com/phoenixsky/fun_android_flutter/issues).
 
-## 简单介绍一下项目结构
+# 简单介绍一下项目结构
 
-  ![项目结构1](https://upload-images.jianshu.io/upload_images/581515-74078e828d25fa7b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+| ![项目结构1](https://upload-images.jianshu.io/upload_images/581515-74078e828d25fa7b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) | ![项目解构2](https://upload-images.jianshu.io/upload_images/581515-362f48ef83763615.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                                                              |                                                              |
 
-  ![项目解构2](https://upload-images.jianshu.io/upload_images/581515-362f48ef83763615.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-## Provider的简单实用方式
+# Provider的简单实用方式
 *  快速添加一个拥有下拉刷新,上拉加载更多的页面.比如开发一个`玩Android`首页列表页面
     1. 定义获取数据的接口
         ![Api](https://upload-images.jianshu.io/upload_images/581515-f60f2fceef71b2cc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -77,7 +67,7 @@ tags: Flutter
 
 > 另外再判断页面状态的时候,其实拿`model.viewState == ViewState.busy`会更严谨一点.为了书写方便,加了一个对应方法     
 
-## 这里能找到什么？
+# 这里能找到什么？
 
 1.  Provider状态管理的最佳实践，虽然Google很早就废弃了`Provide`，宣布[`Provider`](https://github.com/rrousselGit/provider)为推荐的状态管理工具，可是在开发中，我们总是会遇到很多问题。
 
@@ -121,7 +111,7 @@ tags: Flutter
 
 5.  当然还有WanAndroid本身也有不错的内容，每日闲暇时，可以读一读。
 
-## 未完成的功能
+# 未完成的功能
 
 1.  文章详情页面，也就是webview页面没有加入导航功能，没有找到不影响美观的地方，实在不想像微信那样底部加个箭头，所以目前还不能后退。
 
@@ -131,7 +121,7 @@ tags: Flutter
 
 4.  退出登陆加入动效。
 
-## 目前已知存在的问题
+# 目前已知存在的问题
 
 1.  表单中，光标不会切换到下一个。待更新到1.7.8-hotfix4后的稳定版再观察修复。
 
@@ -144,14 +134,14 @@ tags: Flutter
 
 5.  Tabbar的Indicator的颜色，在Dark模式切换到Light模式时，偶尔会没有跟随切换。
 
-## Future
+# Future
 
 1.  后期会上线大量博客，来讲述这个项目里所遇到的问题及解决的思路。
 
-## 作者的话
+# 作者的话
 *  坐标上海,想找Flutter方向的工作,4年Android开发,可面向API进行小程序,Vue开发.还成功上架过weex应用.
 
-## 感谢
+# 感谢
 
 1.  感谢 [V2Lf](https://github.com/w4mxl/V2LF) 开源项目，很早就在TestFlight中下载了该App,那时还没开源。萌生了想做一个开源的App的想法。
 
@@ -163,8 +153,11 @@ tags: Flutter
 
 5.  感谢站酷提供的开源的字体。
 
+6.  感谢WanAndroid提供的API。
+
 ## 关于作者
 * [Github](https://github.com/phoenixsky)
 * [个人博客](http://blog.phoenixsky.cn/)
 * [简书](https://www.jianshu.com/u/145e6297cb26)
 * Email: moran.fc@gmail.com
+
