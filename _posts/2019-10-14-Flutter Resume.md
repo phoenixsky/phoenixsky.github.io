@@ -6,7 +6,7 @@ title: 'Flutter 简历'
 
 subtitle: '或许是你正好需要的人才'
 
-date: 2000-00-00
+date: 2000-01-01
 
 categories: 简历
 
